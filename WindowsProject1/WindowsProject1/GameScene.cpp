@@ -4,13 +4,13 @@ void GameScene::Init()
 {
 	Background = new GameObject(L"Background.png");
 	player = new Player(L"player.png");
-	for (int i = 0; i < 5; i++)
+	for (int i = 0; i < 10; i++)
 	{
 		enemy[i] = new GameObject(L"enemy.png");
 	}
-	for (int i = 0; i < 5; i++)
+	for (int i = 0; i < 10; i++)
 	{
-		enemy[i]->position = { 1000 + (float)100* i,500 };
+		enemy[i]->position = { 1000 + (float)100* i, -100};
 	}
 }
 

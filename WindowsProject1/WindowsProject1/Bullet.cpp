@@ -25,6 +25,5 @@ void Bullet::Attack(GameObject * obj)
 			this->exist = false;
 		}
 		obj->exist = false;
-		
 	}
 }

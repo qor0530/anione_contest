@@ -7,6 +7,7 @@ private:
 	Bullet* bullet[10];
 	int currentBullet;
 	float bulletTime = 0;
+	int level = 0;
 public:
 	Player(LPCWSTR filename);
 public:
@@ -15,4 +16,3 @@ public:
 	void Render();
 	void BulletAttackCheck(GameObject * obj);
 };
-

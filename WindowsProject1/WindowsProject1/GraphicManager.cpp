@@ -23,7 +23,11 @@ void GraphicManager::Init(HWND hwnd)
 		D2D1_FACTORY_TYPE_SINGLE_THREADED,
 		&pD2DFactory
 	);
-
+	DWriteCreateFactory(
+		DWRITE_FACTORY_TYPE_SHARED,
+		__uuidof(IDWriteFactory),
+		reinterpret_cast<IUnknown**>(&pDWriteFactory_)
+	);
 	// Obtain the size of the drawing area.
 	RECT rc;
 	GetClientRect(hwnd, &rc);

@@ -1,5 +1,4 @@
 #include "Player.h"
-
 Player::Player(LPCWSTR filename) : GameObject(filename)
 {
 	for (int i = 0; i < 10; i++)
@@ -7,6 +6,7 @@ Player::Player(LPCWSTR filename) : GameObject(filename)
 		bullet[i] = new Bullet(L"bullet.png");
 	}
 	currentBullet = 0;
+	this->hp = 10;
 }
 
 void Player::Move()
@@ -37,11 +37,12 @@ void Player::Shot()
 		bulletTime = GetTickCount();
 		if (GetAsyncKeyState(0x41) & 0x8001)
 		{
-			mciSendString(L"Play ShotSound.mp3", 0, 0, 0);
+			sndPlaySound(L"heli.wav",SND_ASYNC);
+
 			currentBullet %= 10;
-			bullet[currentBullet++]->position = position;
-			
-		}
+			bullet[currentBullet]->exist = true;
+			bullet[currentBullet++]->position = position;	
+		}	
 	}
 	for (int i = 0; i < 10; i++)
 	{

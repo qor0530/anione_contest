@@ -12,6 +12,7 @@ public:
 	float angle;	
 	D2D_VECTOR_2F scale;
 	ID2D1Bitmap * pBitmap;
-	int level = 0;
+	int hp;
+	int damage;
 };
 

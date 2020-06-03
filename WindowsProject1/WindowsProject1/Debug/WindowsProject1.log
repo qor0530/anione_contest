@@ -1,24 +1,3 @@
-﻿  Bullet.cpp
-  ColliderManager.cpp
-c:\users\user\source\repos\windowsproject1\windowsproject1\collidermanager.cpp(11): warning C4838: 'FLOAT'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
-c:\users\user\source\repos\windowsproject1\windowsproject1\collidermanager.cpp(7): warning C4244: '초기화 중': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\user\source\repos\windowsproject1\windowsproject1\collidermanager.cpp(8): warning C4244: '초기화 중': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\user\source\repos\windowsproject1\windowsproject1\collidermanager.cpp(9): warning C4244: '초기화 중': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\user\source\repos\windowsproject1\windowsproject1\collidermanager.cpp(10): warning C4244: '초기화 중': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\user\source\repos\windowsproject1\windowsproject1\collidermanager.cpp(17): warning C4838: 'FLOAT'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
-c:\users\user\source\repos\windowsproject1\windowsproject1\collidermanager.cpp(13): warning C4244: '초기화 중': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\user\source\repos\windowsproject1\windowsproject1\collidermanager.cpp(14): warning C4244: '초기화 중': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\user\source\repos\windowsproject1\windowsproject1\collidermanager.cpp(15): warning C4244: '초기화 중': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\user\source\repos\windowsproject1\windowsproject1\collidermanager.cpp(16): warning C4244: '초기화 중': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  GameObject.cpp
-  GameScene.cpp
-  GameSystem.cpp
-  GraphicManager.cpp
-c:\users\user\source\repos\windowsproject1\windowsproject1\graphicmanager.cpp(105): warning C4244: '초기화 중': 'UINT32'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\user\source\repos\windowsproject1\windowsproject1\graphicmanager.cpp(106): warning C4244: '초기화 중': 'UINT32'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  MainScene.cpp
-  Player.cpp
-c:\users\user\source\repos\windowsproject1\windowsproject1\player.cpp(37): warning C4244: '=': 'DWORD'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  WindowsProject1.cpp
-  코드를 생성하고 있습니다...
-  WindowsProject1.vcxproj -> C:\Users\User\source\repos\WindowsProject1\Debug\WindowsProject1.exe
+﻿  Player.cpp
+c:\users\user\documents\github\anione_contest\windowsproject1\windowsproject1\player.cpp(37): warning C4244: '=': 'DWORD'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  WindowsProject1.vcxproj -> C:\Users\User\Documents\GitHub\anione_contest\WindowsProject1\Debug\WindowsProject1.exe

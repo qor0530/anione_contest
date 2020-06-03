@@ -6,8 +6,9 @@ class GameScene : public Scene
 private:
 	GameObject * Background;
 	Player* player;
-	GameObject * enemy[5];
+	GameObject * enemy[10];
 public:
+
 	void Init();
 	void Update();
 	void Render();
